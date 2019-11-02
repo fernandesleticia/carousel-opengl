@@ -1,0 +1,3 @@
+/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug/CMakeFiles/CG_2018_2_OpenGL.dir

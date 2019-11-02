@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CG_2018_2_OpenGL"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CG_2018_2_OpenGL">
+				<Option output="/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug/CG_2018_2_OpenGL" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 CG_2018_2_OpenGL"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CG_2018_2_OpenGL/fast">
+				<Option output="/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug/CG_2018_2_OpenGL" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 CG_2018_2_OpenGL/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/leticia/repos/CG2018-OpenGL-SolarSystem/camera.h">
+			<Option target="CG_2018_2_OpenGL"/>
+		</Unit>
+		<Unit filename="/home/leticia/repos/CG2018-OpenGL-SolarSystem/debugTimer.h">
+			<Option target="CG_2018_2_OpenGL"/>
+		</Unit>
+		<Unit filename="/home/leticia/repos/CG2018-OpenGL-SolarSystem/display.cpp">
+			<Option target="CG_2018_2_OpenGL"/>
+		</Unit>
+		<Unit filename="/home/leticia/repos/CG2018-OpenGL-SolarSystem/display.h">
+			<Option target="CG_2018_2_OpenGL"/>
+		</Unit>
+		<Unit filename="/home/leticia/repos/CG2018-OpenGL-SolarSystem/main_monkey.cpp">
+			<Option target="CG_2018_2_OpenGL"/>
+		</Unit>
+		<Unit filename="/home/leticia/repos/CG2018-OpenGL-SolarSystem/main_test.cpp">
+			<Option target="CG_2018_2_OpenGL"/>
+		</Unit>
+		<Unit filename="/home/leticia/repos/CG2018-OpenGL-SolarSystem/mesh.cpp">
+			<Option target="CG_2018_2_OpenGL"/>
+		</Unit>
+		<Unit filename="/home/leticia/repos/CG2018-OpenGL-SolarSystem/mesh.h">
+			<Option target="CG_2018_2_OpenGL"/>
+		</Unit>
+		<Unit filename="/home/leticia/repos/CG2018-OpenGL-SolarSystem/obj_loader.cpp">
+			<Option target="CG_2018_2_OpenGL"/>
+		</Unit>
+		<Unit filename="/home/leticia/repos/CG2018-OpenGL-SolarSystem/obj_loader.h">
+			<Option target="CG_2018_2_OpenGL"/>
+		</Unit>
+		<Unit filename="/home/leticia/repos/CG2018-OpenGL-SolarSystem/shader.cpp">
+			<Option target="CG_2018_2_OpenGL"/>
+		</Unit>
+		<Unit filename="/home/leticia/repos/CG2018-OpenGL-SolarSystem/shader.h">
+			<Option target="CG_2018_2_OpenGL"/>
+		</Unit>
+		<Unit filename="/home/leticia/repos/CG2018-OpenGL-SolarSystem/stb_image.c">
+			<Option target="CG_2018_2_OpenGL"/>
+		</Unit>
+		<Unit filename="/home/leticia/repos/CG2018-OpenGL-SolarSystem/stb_image.h">
+			<Option target="CG_2018_2_OpenGL"/>
+		</Unit>
+		<Unit filename="/home/leticia/repos/CG2018-OpenGL-SolarSystem/texture.cpp">
+			<Option target="CG_2018_2_OpenGL"/>
+		</Unit>
+		<Unit filename="/home/leticia/repos/CG2018-OpenGL-SolarSystem/texture.h">
+			<Option target="CG_2018_2_OpenGL"/>
+		</Unit>
+		<Unit filename="/home/leticia/repos/CG2018-OpenGL-SolarSystem/transform.h">
+			<Option target="CG_2018_2_OpenGL"/>
+		</Unit>
+		<Unit filename="/home/leticia/repos/CG2018-OpenGL-SolarSystem/util.h">
+			<Option target="CG_2018_2_OpenGL"/>
+		</Unit>
+		<Unit filename="/home/leticia/repos/CG2018-OpenGL-SolarSystem/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
