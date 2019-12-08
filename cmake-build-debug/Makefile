@@ -150,32 +150,32 @@ display.cpp.s:
 	$(MAKE) -f CMakeFiles/CG_2018_2_OpenGL.dir/build.make CMakeFiles/CG_2018_2_OpenGL.dir/display.cpp.s
 .PHONY : display.cpp.s
 
-main_monkey.o: main_monkey.cpp.o
+main_carousel.o: main_carousel.cpp.o
 
-.PHONY : main_monkey.o
+.PHONY : main_carousel.o
 
 # target to build an object file
-main_monkey.cpp.o:
-	$(MAKE) -f CMakeFiles/CG_2018_2_OpenGL.dir/build.make CMakeFiles/CG_2018_2_OpenGL.dir/main_monkey.cpp.o
-.PHONY : main_monkey.cpp.o
+main_carousel.cpp.o:
+	$(MAKE) -f CMakeFiles/CG_2018_2_OpenGL.dir/build.make CMakeFiles/CG_2018_2_OpenGL.dir/main_carousel.cpp.o
+.PHONY : main_carousel.cpp.o
 
-main_monkey.i: main_monkey.cpp.i
+main_carousel.i: main_carousel.cpp.i
 
-.PHONY : main_monkey.i
+.PHONY : main_carousel.i
 
 # target to preprocess a source file
-main_monkey.cpp.i:
-	$(MAKE) -f CMakeFiles/CG_2018_2_OpenGL.dir/build.make CMakeFiles/CG_2018_2_OpenGL.dir/main_monkey.cpp.i
-.PHONY : main_monkey.cpp.i
+main_carousel.cpp.i:
+	$(MAKE) -f CMakeFiles/CG_2018_2_OpenGL.dir/build.make CMakeFiles/CG_2018_2_OpenGL.dir/main_carousel.cpp.i
+.PHONY : main_carousel.cpp.i
 
-main_monkey.s: main_monkey.cpp.s
+main_carousel.s: main_carousel.cpp.s
 
-.PHONY : main_monkey.s
+.PHONY : main_carousel.s
 
 # target to generate assembly for a file
-main_monkey.cpp.s:
-	$(MAKE) -f CMakeFiles/CG_2018_2_OpenGL.dir/build.make CMakeFiles/CG_2018_2_OpenGL.dir/main_monkey.cpp.s
-.PHONY : main_monkey.cpp.s
+main_carousel.cpp.s:
+	$(MAKE) -f CMakeFiles/CG_2018_2_OpenGL.dir/build.make CMakeFiles/CG_2018_2_OpenGL.dir/main_carousel.cpp.s
+.PHONY : main_carousel.cpp.s
 
 main_test.o: main_test.cpp.o
 
@@ -351,9 +351,9 @@ help:
 	@echo "... display.o"
 	@echo "... display.i"
 	@echo "... display.s"
-	@echo "... main_monkey.o"
-	@echo "... main_monkey.i"
-	@echo "... main_monkey.s"
+	@echo "... main_carousel.o"
+	@echo "... main_carousel.i"
+	@echo "... main_carousel.s"
 	@echo "... main_test.o"
 	@echo "... main_test.i"
 	@echo "... main_test.s"

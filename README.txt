@@ -15,4 +15,4 @@ sudo apt-get install libglew-dev
 
 #To compile:
 
-g++ -o main main_monkey.cpp -lGL -lGLU -lglut mesh.cpp display.cpp shader.cpp texture.cpp stb_image.c obj_loader.cpp -lSDL2 -lGLEW -lGL
+g++ -o main main_carousel.cpp -lGL -lGLU -lglut mesh.cpp display.cpp shader.cpp texture.cpp stb_image.c obj_loader.cpp -lSDL2 -lGLEW -lGL

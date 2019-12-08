@@ -96,7 +96,7 @@
 		<Unit filename="/home/leticia/repos/CG2018-OpenGL-SolarSystem/display.h">
 			<Option target="CG_2018_2_OpenGL"/>
 		</Unit>
-		<Unit filename="/home/leticia/repos/CG2018-OpenGL-SolarSystem/main_monkey.cpp">
+		<Unit filename="/home/leticia/repos/CG2018-OpenGL-SolarSystem/main_carousel.cpp">
 			<Option target="CG_2018_2_OpenGL"/>
 		</Unit>
 		<Unit filename="/home/leticia/repos/CG2018-OpenGL-SolarSystem/main_test.cpp">

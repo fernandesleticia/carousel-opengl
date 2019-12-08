@@ -5,6 +5,8 @@
 #ifndef CG_2018_2_OPENGL_TRANSFORM_H
 #define CG_2018_2_OPENGL_TRANSFORM_H
 
+#define GLM_ENABLE_EXPERIMENTAL
+
 #include <glm/glm.hpp>
 #include <glm/gtx/transform.hpp>
 #include "camera.h"

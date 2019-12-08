@@ -14,7 +14,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/leticia/repos/CG2018-OpenGL-SolarSystem/display.cpp" "/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug/CMakeFiles/CG_2018_2_OpenGL.dir/display.cpp.o"
-  "/home/leticia/repos/CG2018-OpenGL-SolarSystem/main_monkey.cpp" "/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug/CMakeFiles/CG_2018_2_OpenGL.dir/main_monkey.cpp.o"
+  "/home/leticia/repos/CG2018-OpenGL-SolarSystem/main_carousel.cpp" "/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug/CMakeFiles/CG_2018_2_OpenGL.dir/main_carousel.cpp.o"
   "/home/leticia/repos/CG2018-OpenGL-SolarSystem/main_test.cpp" "/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug/CMakeFiles/CG_2018_2_OpenGL.dir/main_test.cpp.o"
   "/home/leticia/repos/CG2018-OpenGL-SolarSystem/mesh.cpp" "/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug/CMakeFiles/CG_2018_2_OpenGL.dir/mesh.cpp.o"
   "/home/leticia/repos/CG2018-OpenGL-SolarSystem/obj_loader.cpp" "/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug/CMakeFiles/CG_2018_2_OpenGL.dir/obj_loader.cpp.o"

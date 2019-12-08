@@ -70,18 +70,18 @@ CMakeFiles/CG_2018_2_OpenGL.dir/main_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CG_2018_2_OpenGL.dir/main_test.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leticia/repos/CG2018-OpenGL-SolarSystem/main_test.cpp -o CMakeFiles/CG_2018_2_OpenGL.dir/main_test.cpp.s
 
-CMakeFiles/CG_2018_2_OpenGL.dir/main_monkey.cpp.o: CMakeFiles/CG_2018_2_OpenGL.dir/flags.make
-CMakeFiles/CG_2018_2_OpenGL.dir/main_monkey.cpp.o: ../main_monkey.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CG_2018_2_OpenGL.dir/main_monkey.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CG_2018_2_OpenGL.dir/main_monkey.cpp.o -c /home/leticia/repos/CG2018-OpenGL-SolarSystem/main_monkey.cpp
+CMakeFiles/CG_2018_2_OpenGL.dir/main_carousel.cpp.o: CMakeFiles/CG_2018_2_OpenGL.dir/flags.make
+CMakeFiles/CG_2018_2_OpenGL.dir/main_carousel.cpp.o: ../main_carousel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/leticia/repos/CG2018-OpenGL-SolarSystem/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CG_2018_2_OpenGL.dir/main_carousel.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CG_2018_2_OpenGL.dir/main_carousel.cpp.o -c /home/leticia/repos/CG2018-OpenGL-SolarSystem/main_carousel.cpp
 
-CMakeFiles/CG_2018_2_OpenGL.dir/main_monkey.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CG_2018_2_OpenGL.dir/main_monkey.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leticia/repos/CG2018-OpenGL-SolarSystem/main_monkey.cpp > CMakeFiles/CG_2018_2_OpenGL.dir/main_monkey.cpp.i
+CMakeFiles/CG_2018_2_OpenGL.dir/main_carousel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CG_2018_2_OpenGL.dir/main_carousel.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leticia/repos/CG2018-OpenGL-SolarSystem/main_carousel.cpp > CMakeFiles/CG_2018_2_OpenGL.dir/main_carousel.cpp.i
 
-CMakeFiles/CG_2018_2_OpenGL.dir/main_monkey.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CG_2018_2_OpenGL.dir/main_monkey.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leticia/repos/CG2018-OpenGL-SolarSystem/main_monkey.cpp -o CMakeFiles/CG_2018_2_OpenGL.dir/main_monkey.cpp.s
+CMakeFiles/CG_2018_2_OpenGL.dir/main_carousel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CG_2018_2_OpenGL.dir/main_carousel.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leticia/repos/CG2018-OpenGL-SolarSystem/main_carousel.cpp -o CMakeFiles/CG_2018_2_OpenGL.dir/main_carousel.cpp.s
 
 CMakeFiles/CG_2018_2_OpenGL.dir/mesh.cpp.o: CMakeFiles/CG_2018_2_OpenGL.dir/flags.make
 CMakeFiles/CG_2018_2_OpenGL.dir/mesh.cpp.o: ../mesh.cpp
@@ -164,7 +164,7 @@ CMakeFiles/CG_2018_2_OpenGL.dir/stb_image.c.s: cmake_force
 # Object files for target CG_2018_2_OpenGL
 CG_2018_2_OpenGL_OBJECTS = \
 "CMakeFiles/CG_2018_2_OpenGL.dir/main_test.cpp.o" \
-"CMakeFiles/CG_2018_2_OpenGL.dir/main_monkey.cpp.o" \
+"CMakeFiles/CG_2018_2_OpenGL.dir/main_carousel.cpp.o" \
 "CMakeFiles/CG_2018_2_OpenGL.dir/mesh.cpp.o" \
 "CMakeFiles/CG_2018_2_OpenGL.dir/display.cpp.o" \
 "CMakeFiles/CG_2018_2_OpenGL.dir/texture.cpp.o" \
@@ -176,7 +176,7 @@ CG_2018_2_OpenGL_OBJECTS = \
 CG_2018_2_OpenGL_EXTERNAL_OBJECTS =
 
 CG_2018_2_OpenGL: CMakeFiles/CG_2018_2_OpenGL.dir/main_test.cpp.o
-CG_2018_2_OpenGL: CMakeFiles/CG_2018_2_OpenGL.dir/main_monkey.cpp.o
+CG_2018_2_OpenGL: CMakeFiles/CG_2018_2_OpenGL.dir/main_carousel.cpp.o
 CG_2018_2_OpenGL: CMakeFiles/CG_2018_2_OpenGL.dir/mesh.cpp.o
 CG_2018_2_OpenGL: CMakeFiles/CG_2018_2_OpenGL.dir/display.cpp.o
 CG_2018_2_OpenGL: CMakeFiles/CG_2018_2_OpenGL.dir/texture.cpp.o
