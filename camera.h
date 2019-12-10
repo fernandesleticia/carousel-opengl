@@ -21,13 +21,13 @@ enum Camera_Movement
 const GLfloat YAW        = -90.0f;
 const GLfloat PITCH      =  0.0f;
 const GLfloat SPEED      =  6.0f;
-const GLfloat SENSITIVTY =  0.25f;
+const GLfloat SENSITIVTY =  0.15f;
 const GLfloat ZOOM       =  45.0f;
 
 struct Camera
 {
 public:
-    Camera(const glm::vec3& pos, float fov, float aspect, float zNear, float zFar, GLfloat yaw = YAW, GLfloat pitch = PITCH)
+    Camera(const glm::vec3& pos, float fov, float aspect, float zNear, float zFar, GLfloat yaw = YAW, GLfloat pitch = PITCH):  zoom( ZOOM )
     {
         this->pos = pos;
         this->forward = glm::vec3(0.0f, 0.0f, 1.0f);
@@ -74,6 +74,11 @@ public:
 
     	forward = glm::vec3(glm::normalize(rotation * glm::vec4(forward, 0.0)));
     	up = glm::vec3(glm::normalize(rotation * glm::vec4(up, 0.0)));
+    }
+
+    GLfloat GetZoom( )
+    {
+        return this->zoom;
     }
 
      // Processes input received from any keyboard-like input system. Accepts input parameter in the form of camera defined ENUM (to abstract it from windowing systems)
@@ -143,6 +148,8 @@ private:
     // Eular Angles
     GLfloat yaw;
     GLfloat pitch;
+
+    GLfloat zoom;
 
      // Calculates the front vector from the Camera's (updated) Eular Angles
     void updateCameraVectors( )
