@@ -38,3 +38,4 @@ private:
 
 
 #endif //CG_2018_2_OPENGL_SHADER_H
+

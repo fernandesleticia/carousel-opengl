@@ -1,5 +1,5 @@
 //
-// Created by leticia on 10/12/18.
+// Created by leticia.
 //
 
 #ifndef CG_2018_2_OPENGL_CAMERA_H
@@ -15,7 +15,7 @@ public:
     {
         this->pos = pos;
         this->forward = glm::vec3(0.0f, 0.0f, 1.0f);
-        this->up = glm::vec3(0.0f, 1.0f, 0.0f);
+        this->up = glm::vec3(1.0f, 2.0f, 0.0f);
         this->projection = glm::perspective(fov, aspect, zNear, zFar);
     }
 

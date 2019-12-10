@@ -1,5 +1,5 @@
 //
-// Created by leticia on 10/12/18.
+// Created by leticia.
 //
 
 #ifndef CG_2018_2_OPENGL_TRANSFORM_H
@@ -32,6 +32,11 @@ public:
 
         return posMat * rotMat * scaleMat;
     }
+    /*
+    The Projection matrix is an orthographic matrix which will encompass everything in the axis-aligned box (-10,10),(-10,10),(-10,20) on the X,Y and Z axes respectively. These values are made so that our entire *visible *scene is always visible ; more on this in the Going Further section.
+    The View matrix rotates the world so that in camera space, the light direction is -Z (would you like to re-read Tutorial 3 ?)
+    The Model matrix is whatever you want.
+    */
 
     inline glm::mat4 GetMVP(const Camera& camera) const
     {

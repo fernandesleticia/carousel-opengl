@@ -6,6 +6,9 @@
 #include <iostream>
 #include <fstream>
 
+
+glm::vec3 lightPos( 1.2f, 1.0f, 2.0f );
+
 Shader::Shader(const std::string& fileName)
 {
     m_program = glCreateProgram();
@@ -28,6 +31,19 @@ Shader::Shader(const std::string& fileName)
     m_uniforms[0] = glGetUniformLocation(m_program, "MVP");
     m_uniforms[1] = glGetUniformLocation(m_program, "Normal");
     m_uniforms[2] = glGetUniformLocation(m_program, "lightDirection");
+
+    m_uniforms[3] = glGetUniformLocation(m_program, "material.diffuse");
+    m_uniforms[4] = glGetUniformLocation(m_program, "material.specular");
+
+    m_uniforms[5] = glGetUniformLocation(m_program, "light.position");
+    m_uniforms[6] = glGetUniformLocation(m_program, "light.direction");
+    m_uniforms[7] = glGetUniformLocation(m_program, "viewPos");
+
+    m_uniforms[8] = glGetUniformLocation(m_program, "light.ambient");
+    m_uniforms[9] = glGetUniformLocation(m_program, "light.diffuse");
+    m_uniforms[10] = glGetUniformLocation(m_program, "light.specular");
+
+    m_uniforms[11] = glGetUniformLocation(m_program, "material.shininess");
 }
 
 Shader::~Shader()
@@ -53,7 +69,24 @@ void Shader::Update(const Transform& transform, const Camera& camera)
 
     glUniformMatrix4fv(m_uniforms[0], 1, GL_FALSE, &MVP[0][0]);
     glUniformMatrix4fv(m_uniforms[1], 1, GL_FALSE, &Normal[0][0]);
-    glUniform3f(m_uniforms[2], 0.0f, 0.0f, 1.0f);
+    // altera direção da luz
+    glUniform3f(m_uniforms[2], 1.0f, 0.0f, 1.0f);
+    
+    glUniform1i(m_uniforms[3], 0 );
+    glUniform1i(m_uniforms[4], 1 );
+
+    //glUniform3f(m_uniforms[5], lightPos.x, lightPos.y, lightPos.z);
+    glUniform3f( m_uniforms[6], -0.2f, -1.0f, -0.3f );
+    //glUniform3f( m_uniforms[7],  camera.GetPosition( ).x, camera.GetPosition( ).y, camera.GetPosition( ).z );
+    glUniform3f( m_uniforms[7],  3.5f, 0.0f, -2.0f );
+
+    // Set lights properties
+    glUniform3f( m_uniforms[8],  0.3f, 0.5f, 0.3f );
+    glUniform3f( m_uniforms[9],  0.5f, 1.5f, 0.5f );
+    glUniform3f( m_uniforms[10], 1.0f, 3.0f, 1.0f );
+
+    // Set material properties
+    glUniform1f( m_uniforms[11], 32.0f );
 }
 
 std::string Shader::LoadShader(const std::string& fileName)
