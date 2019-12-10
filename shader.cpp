@@ -7,7 +7,7 @@
 #include <fstream>
 
 
-glm::vec3 lightPos( 1.2f, 1.0f, 2.0f );
+//glm::vec3 lightPos( 1.2f, 2.0f, 2.0f );
 
 Shader::Shader(const std::string& fileName)
 {
@@ -43,7 +43,11 @@ Shader::Shader(const std::string& fileName)
     m_uniforms[9] = glGetUniformLocation(m_program, "light.diffuse");
     m_uniforms[10] = glGetUniformLocation(m_program, "light.specular");
 
-    m_uniforms[11] = glGetUniformLocation(m_program, "material.shininess");
+    m_uniforms[11] = glGetUniformLocation(m_program, "light.constant");
+    m_uniforms[12] = glGetUniformLocation(m_program, "light.linear");
+    m_uniforms[13] = glGetUniformLocation(m_program, "light.quadratic");
+
+    m_uniforms[14] = glGetUniformLocation(m_program, "material.shininess");
 }
 
 Shader::~Shader()
@@ -74,8 +78,8 @@ void Shader::Update(const Transform& transform, const Camera& camera)
     
     glUniform1i(m_uniforms[3], 0 );
     glUniform1i(m_uniforms[4], 1 );
-
-    //glUniform3f(m_uniforms[5], lightPos.x, lightPos.y, lightPos.z);
+    //lightPos.x, lightPos.y, lightPos.z
+    glUniform3f(m_uniforms[5], 1.2f, 2.0f, 2.0f); 
     glUniform3f( m_uniforms[6], -0.2f, -1.0f, -0.3f );
     //glUniform3f( m_uniforms[7],  camera.GetPosition( ).x, camera.GetPosition( ).y, camera.GetPosition( ).z );
     glUniform3f( m_uniforms[7],  3.5f, 0.0f, -2.0f );
@@ -84,9 +88,12 @@ void Shader::Update(const Transform& transform, const Camera& camera)
     glUniform3f( m_uniforms[8],  0.3f, 0.5f, 0.3f );
     glUniform3f( m_uniforms[9],  0.5f, 1.5f, 0.5f );
     glUniform3f( m_uniforms[10], 1.0f, 3.0f, 1.0f );
+    glUniform1f( m_uniforms[11], 1.0f );
+    glUniform1f( m_uniforms[12], 0.09 );
+    glUniform1f(m_uniforms[13], 0.032 );
 
     // Set material properties
-    glUniform1f( m_uniforms[11], 32.0f );
+    glUniform1f( m_uniforms[14], 32.0f );
 }
 
 std::string Shader::LoadShader(const std::string& fileName)
