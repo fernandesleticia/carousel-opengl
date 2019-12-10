@@ -14,13 +14,17 @@ struct Light
     vec3 ambient;
     vec3 diffuse;
     vec3 specular;
+
+	float constant;
+    float linear;
+    float quadratic;
 };
 
 varying vec3 FragPos;
 varying vec2 texCoord0;
 varying vec3 normal0;
 
-vec4 color;
+//vec4 color;
 
 uniform sampler2D sampler;
 uniform vec3 lightDirection;
@@ -28,6 +32,7 @@ uniform vec3 lightDirection;
 uniform vec3 viewPos;
 uniform Material material;
 uniform Light light;
+
 
 void main()
 {
