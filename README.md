@@ -4,13 +4,13 @@ A Star Wars scene built using the OpenGL
 ## Intalling the dependencies:
 
 * SDL2
-> fornecer uma camada de abstração de hardware para componentes de hardware de multimídia de computadores
+> provide a hardware abstraction layer for computer multimedia hardware components
 ```bash
 $ sudo apt-get install libsdl2-dev 
 $ sudo apt-get install libsdl2-2.0 
 ```
 * glm
-> OpenGL Mathematics é uma biblioteca matemática feita em C ++ para softwares gráficos
+> OpenGL Mathematics is a C ++ mathematical library for graphics software.
 ```bash
 $ sudo apt-get install libglm-dev
 ```
@@ -21,7 +21,7 @@ $ sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
 ```
 
 * glew
->  fornece mecanismos eficientes de tempo de execução
+>  provides efficient runtime mechanisms
 ```bash
 $ sudo apt-get install libglew-dev
 ```
